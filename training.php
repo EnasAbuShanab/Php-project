@@ -3,7 +3,7 @@
 
 ?>
 
-<form method="Post">
+<form method="post">
 
 Number1 <input name="num1" type="number"/>
 Number2 <input name="num2" type="number"/>
