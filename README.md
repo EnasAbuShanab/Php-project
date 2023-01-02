@@ -13,3 +13,17 @@
 ## POST
 ![Post](img/Post.PNG)
 
+--------------------------------------
+## How I build the register?
+- أخدنا الفورم منBootdey 
+- فصلت ال CSS code بفايل منفصل و الربط بينهم من خلال 
+![Get](img/CSS.PNG)
+بعد head مباشرة
+- إضافة method="post" لتحديد طبيعة الفورم
+![Post](img/method.PNG)
+- تعديل محتويات Input داخل الكود حسب الفورم المرغوب
+- إضافة كود php و ربطه مع ال database مع اجراء التعديلات المطلوبة
+![Post](img/php.PNG)
+
+
+
