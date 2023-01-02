@@ -29,7 +29,7 @@
 
   <div class="jumbotron text-center" style="min-height:400px;height:auto;">
     <div class="col-md-10 col-md-offset-2">
-        <form class="form-horizontal" role="form" method="Post">
+        <form class="form-horizontal" role="form" method="post">
         
             <div class="form-group text-center">
                 <div class="col-sm-10 reg-icon">
@@ -48,7 +48,7 @@
               </div>
               <div class="form-group">
                 <div class="col-sm-10">
-                  <input type="email" class="form-control" name="Username" id="Username" placeholder="Username">
+                  <input type="text" class="form-control" name="Username" id="Username" placeholder="Username">
                 </div>
               </div>
               <div class="form-group">
@@ -58,7 +58,7 @@
               </div>
               <div class="form-group">
                 <div class="col-sm-10">
-                  <button type="submit" name="Submit" class="btn btn-info">
+                  <button type="submit" name="submit" class="btn btn-info">
                     <span class="glyphicon glyphicon-share-alt"></span>
                     Register
                   </button>
@@ -74,7 +74,7 @@
     font-size:12px;    
 }
 <?php
- if (isset($_POST['Submit'])){
+ if (isset($_POST['submit'])){
    
 
     #echo "num1 :". $_POST['num1']."<br/> nume : <span style=\"color:red;\">".$_POST['num2']."</span>";
@@ -95,7 +95,7 @@
     }
     echo "Connected successfully";
 
-    $sql = "INSERT INTO `users` ( `name`, `email`, `username`, `password`) VALUES ('$_POST[num1]', 'Doe', 'john@example.com')";
+    $sql = "INSERT INTO `users` ( `name`, `email`, `username`, `password`) VALUES ('$_POST[name]', '$_POST[Email]', '$_POST[Username]', '$_POST[password]')";
 
  $conn->query($sql);
 
