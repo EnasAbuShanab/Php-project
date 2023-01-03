@@ -24,7 +24,7 @@
       <li class="active"><a href="http://getbootstrap.com/examples/jumbotron-narrow/#">Register</a></li>
       <li><a href="http://getbootstrap.com/examples/jumbotron-narrow/#">About</a></li>
     </ul>
-    <h3 class="text-muted prj-name">Project name</h3>
+    <h3 class="text-muted prj-name">Register </h3>
   </div>
 
   <div class="jumbotron text-center" style="min-height:400px;height:auto;">

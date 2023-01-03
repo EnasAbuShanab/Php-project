@@ -41,4 +41,12 @@
 - !== not Identical
 - <=> this sign results (-1,0,1) where if < is true then the resule = 1 , if it's = then it's = 0, and if it's > then it's = -1
 
+## Merge elements
+- include
+- require
+- include_once
+- require_once
 
+الفرق بين العنصرين هو أنه فيحال حدوث خطأ ضمن include فإنه يُظهر الخطأ دون حدوث مشاكل بباقي الكود, 
+
+أما requir فالخطأ داخلها يتسبب بتعطل كامل الموقع
