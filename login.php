@@ -36,6 +36,11 @@
 </head>
 
 <body>
+    <?php 
+    include 'register.php';
+    ?>
+
+
     <div id="snippetContent">
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
@@ -45,7 +50,7 @@
                 <ul class="nav nav-pills pull-right">
                     <li><a href="#">&nbsp;</a></li>
                 </ul>
-                <h3 class="text-muted prj-name">Project Name</h3>
+                <h3 class="text-muted prj-name">Login Form</h3>
             </div>
             <div style="height:auto;min-height:300px;" class="jumbotron">
                 <div class="col-md-4"> <img class="img-responsive center-block img-user" src="https://bootdey.com/img/Content/Manbrown2.png"></div>
