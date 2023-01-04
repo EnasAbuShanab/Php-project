@@ -41,6 +41,12 @@
 - !== not Identical
 - <=> this sign results (-1,0,1) where if < is true then the resule = 1 , if it's = then it's = 0, and if it's > then it's = -1
 
+## logical operators
+- and, &&
+- or, ||
+- xor, one of them is true but not both
+- ! يوضع قبل أي جملة منطقية بحيث يقلب النتيجة, فلو كانت نتيجة الجملة الشرطية true فسيقلبها لfalse
+
 ## Merge elements
 - include
 - require
