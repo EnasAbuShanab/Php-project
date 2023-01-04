@@ -40,6 +40,7 @@
 - <> not Equal
 - !== not Identical
 - <=> this sign results (-1,0,1) where if < is true then the resule = 1 , if it's = then it's = 0, and if it's > then it's = -1
+- (.), (.=) لجمع البيانات النصية ويتعامل مع الأرقام على أنها نصوص
 
 ## logical operators
 - and, &&
@@ -50,6 +51,13 @@
 ## switch case 
 بيتم اضافة احتمالات cases داخل switch و مقارنتها مع المتغير المذكور بجاني switch  و المُعرف مسبقاً بحيث أن الكيس المساوي للمتغير سيتنفذ الأمر الذي يتبعه ثم يتوقف بالأمر break ويخرج من switch 
 أما إذا لم يتحقق أي من ال cases الموجودة فسينفذ ما بعر كلمة default
+
+## difference B/N For & while loop
+- العداد يكون داخل forLoop , و خارج الwhileLoop
+- يجب تحديد عدد مرات تكرار اللوب داخل ال forLoop, أما ال whileLoop تتكرر اللوب بناءً على شرط يوضع داخل الأقواس
+- عملية الزيادة على العداد تكون داخل أقواس ال forLoop, و تكون داخل ال {} في ال whileLoop
+
+
 
 ## Merge elements
 - include
