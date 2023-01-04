@@ -40,6 +40,7 @@
 - <> not Equal
 - !== not Identical
 - <=> this sign results (-1,0,1) where if < is true then the resule = 1 , if it's = then it's = 0, and if it's > then it's = -1
+- (.), (.=) لجمع البيانات النصية ويتعامل مع الأرقام على أنها نصوص
 
 ## logical operators
 - and, &&

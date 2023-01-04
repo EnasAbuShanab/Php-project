@@ -13,6 +13,11 @@ switch($mark){
 
 }
 
+$Num1 = 40;
+$Num2 = 5;
+
+echo $Num1 . $Num2;
+
 $color = 1;
 switch($color){
     case 1:
