@@ -37,7 +37,7 @@
 
 <body>
     <?php 
-    include 'register.php';
+    include 'register.php'; //INCLUDE APPLY
     ?>
 
 
