@@ -2,6 +2,10 @@
 
 $counter = 0;
 while($counter<=20){
+    if ($counter==7 || $counter==17){
+        ++$counter;
+        continue;
+    }
    $result=$counter*2;
     echo "<h4>Round . $counter . $counter * 2 = $result</h4>";
     echo "<style> body{
@@ -10,17 +14,20 @@ while($counter<=20){
             color: yellow;
     }</style>";
 
- ++$counter; #add 1 every round
+    ++$counter; #add 1 every round
     
 }
 
 
 
 for($counter = 20; $counter>=0; --$counter){
+
+    if ($counter==7 ){
+        break;
+    }
+
     $result=$counter*2;
     echo "<h4>Round . $counter . $counter * 2 = $result</h4>";
-    
-
     
 }
 
@@ -28,6 +35,8 @@ for($counter = 20; $counter>=0; --$counter){
 
 $countere= 1;
 do{
+     
+    
     echo "<h4> it's DONE $countere </h4>";
 
 ++$countere;
