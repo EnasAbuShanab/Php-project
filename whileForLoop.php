@@ -24,6 +24,14 @@ for($counter = 20; $counter>=0; --$counter){
     
 }
 
+//do while loop 
 
+$countere= 1;
+do{
+    echo "<h4> it's DONE $countere </h4>";
+
+++$countere;
+
+} while($countere<=10);
 
 ?>

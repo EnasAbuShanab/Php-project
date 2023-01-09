@@ -52,11 +52,11 @@
 بيتم اضافة احتمالات cases داخل switch و مقارنتها مع المتغير المذكور بجاني switch  و المُعرف مسبقاً بحيث أن الكيس المساوي للمتغير سيتنفذ الأمر الذي يتبعه ثم يتوقف بالأمر break ويخرج من switch 
 أما إذا لم يتحقق أي من ال cases الموجودة فسينفذ ما بعر كلمة default
 
-## difference B/N For & while loop
+## difference B/N For , while loop & do While loop
 - العداد يكون داخل forLoop , و خارج الwhileLoop
 - يجب تحديد عدد مرات تكرار اللوب داخل ال forLoop, أما ال whileLoop تتكرر اللوب بناءً على شرط يوضع داخل الأقواس
 - عملية الزيادة على العداد تكون داخل أقواس ال forLoop, و تكون داخل ال {} في ال whileLoop
-
+- أما الdo while loop  فإن الأمر داخل  do سيتنفذ أولاً ومن ثم سيتحقق من الشرط while
 
 
 ## Merge elements
