@@ -80,3 +80,8 @@ include '../register.php';
 
 ## Arrays
 ### indexed array
+### foreach loop 
+- بعد كتابة foreach نضع المتغير الموجود أصلاً نستبدله بمتغير آخر, وبالتالي ستنتقل بياناته إلى المتغير الحديد
+-
+
+
